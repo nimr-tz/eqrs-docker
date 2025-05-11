@@ -1,0 +1,38 @@
+/data/mysql/*
+.DS_Store
+.idea
+
+# Ignore Docker container logs and data
+*.log
+*.json
+*.tar
+*.gz
+*.tar.gz
+*.md5
+*.sha1
+*.sha256
+*.sha512
+
+# Ignore container images and caches
+*.docker
+*.image
+*.layer
+*.json
+
+# Ignore Docker Compose overrides and environment files
+*.env
+*.env.local
+*.env.*.local
+
+# Ignore Docker Compose configuration and cache files
+.dockerignore
+.dockerconfig.json
+
+# Ignore Docker system files
+.docker/
+
+# Ignore Kubernetes manifests for Docker Desktop
+k8s-local
+
+# Ignore Docker Swarm state files
+docker-swarm.*
